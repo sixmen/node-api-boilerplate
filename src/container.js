@@ -13,7 +13,7 @@ const devErrorHandler = require('./interfaces/http/errors/devErrorHandler');
 
 const logger = require('./infra/logging/logger');
 const SequelizeUsersRepository = require('./infra/user/SequelizeUsersRepository');
-const { database, User: UserModel } = require('./infra/database/models');
+const { database, UserModel } = require('./infra/database/models');
 
 const container = createContainer();
 
